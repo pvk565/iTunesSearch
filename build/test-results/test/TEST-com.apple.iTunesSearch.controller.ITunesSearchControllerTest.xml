@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.apple.iTunesSearch.controller.ITunesSearchControllerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-07-30T13:01:56" hostname="Pavanis-MacBook-Pro.local" time="0.101">
+  <properties/>
+  <testcase name="getAllDetailsTest()" classname="com.apple.iTunesSearch.controller.ITunesSearchControllerTest" time="0.095"/>
+  <testcase name="getLimitedDetailsTest()" classname="com.apple.iTunesSearch.controller.ITunesSearchControllerTest" time="0.005"/>
+  <system-out><![CDATA[2023-07-30T18:31:55.736+05:30  INFO 2672 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.apple.iTunesSearch.controller.ITunesSearchControllerTest]: ITunesSearchControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-07-30T18:31:55.777+05:30  INFO 2672 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.apple.iTunesSearch.ITunesSearchApplication for test class com.apple.iTunesSearch.controller.ITunesSearchControllerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.2)
+
+2023-07-30T18:31:55.807+05:30  INFO 2672 --- [    Test worker] c.a.i.c.ITunesSearchControllerTest       : Starting ITunesSearchControllerTest using Java 17.0.7 with PID 2672 (started by pavanisobbana in /Users/pavanisobbana/Documents/projects/iTunesSearch)
+2023-07-30T18:31:55.807+05:30  INFO 2672 --- [    Test worker] c.a.i.c.ITunesSearchControllerTest       : No active profile set, falling back to 1 default profile: "default"
+2023-07-30T18:31:56.002+05:30  INFO 2672 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-07-30T18:31:56.002+05:30  INFO 2672 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-07-30T18:31:56.004+05:30  INFO 2672 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-07-30T18:31:56.010+05:30  INFO 2672 --- [    Test worker] c.a.i.c.ITunesSearchControllerTest       : Started ITunesSearchControllerTest in 0.212 seconds (process running for 1.679)
+{"resultCount":1,"appleTunes":[{"id":1,"uid":"TP40017632-CH3-SW1","productId":"TP40017632-CH3-SW1","productDes":"IPhone Supported","productType":"Audio","productRef":"Apple Store"}]}
+{"resultCount":1,"appleTunes":[{"id":1,"uid":"TP40017632-CH3-SW1","productId":"TP40017632-CH3-SW1","productDes":"IPhone Supported","productType":"Audio","productRef":"Apple Store"}]}	{"resultCount":1,"appleTunes":[{"id":1,"uid":"TP40017632-CH3-SW1","productId":"TP40017632-CH3-SW1","productDes":"IPhone Supported","productType":"Audio","productRef":"Apple Store"}]}
+{"resultCount":1,"appleTunes":[{"id":1,"uid":"TP40017632-CH3-SW1","productId":"TP40017632-CH3-SW1","productDes":"IPhone Supported","productType":"Audio","productRef":"Apple Store"}]}
+{"resultCount":1,"appleTunes":[{"id":1,"uid":"TP40017632-CH3-SW1","productId":"TP40017632-CH3-SW1","productDes":"IPhone Supported","productType":"Audio","productRef":"Apple Store"}]}	{"resultCount":1,"appleTunes":[{"id":1,"uid":"TP40017632-CH3-SW1","productId":"TP40017632-CH3-SW1","productDes":"IPhone Supported","productType":"Audio","productRef":"Apple Store"}]}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
